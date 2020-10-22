@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
      <div>
-       <h1>Парарxdhkjhkjhkjcsdfа</h1>
+       <h1>Парарxdhkjhdssddskjhkjcsdfа</h1>
      </div>
     </div>
   );
