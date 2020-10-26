@@ -1,31 +1,21 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
-export const Example = styled.div`
-/* all declarations will be prefixed */
-padding: 2em 1em;
-background: papayawhip;
-/* pseudo selectors work as well */
-&:hover {
-  background: palevioletred;
-}
-/* media queries are no problem */
-@media (max-width: 600px) {
-  background: tomato;
+export const Icon =styled.div`
+width:100px;
+height:100px`
 
-  /* nested rules work as expected */
-  &:hover {
-    background: yellow;
-  }
-}
-> p {
-  /* descendant-selectors work as well, but are more of an escape hatch */
-  text-decoration: underline;
-}
-/* Contextual selectors work as well */
-html.test & {
-  display: none;
-}
-`;
+export const Form= styled.form
+`
+width:500px;
+margin:0 auto;
+height:900px
+`
+export const Menu=styled.div
+`
+width:500px;
+margin:0 auto;
+height:60px;
 
+`
 
 
